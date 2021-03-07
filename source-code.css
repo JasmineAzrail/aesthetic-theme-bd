@@ -8,6 +8,27 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+.typeWindows-1za-n7 {
+  position:relative;
+}
+.wordmark-2iDDfm {
+  display:flex;
+  align-items:center;
+  padding:0 6px;
+  height:calc(100% + 4px);
+  top:-4px;
+  width:fit-content;
+  font-size:14px;
+  font-weight:600;
+  font-family: 'Discord';
+}
+.wordmark-2iDDfm > svg {
+  display:none;
+}
+.wordmark-2iDDfm:after {
+  content:'𝒜 𝑒 𝓈 𝓉 𝒽 𝑒 𝓉 𝒾 𝒸';
+}
 .theme-dark {
   --theme-name: "A e s t h e t i c";
   --theme-version: "1.5";
@@ -231,7 +252,6 @@
 		11.	CHANNELHISTORY
 		12.	CHANNELTABS
 	19.	UPDATENOTICE
-	20.	WATERMARK
 */
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 body,														/* body														*/
@@ -7504,5 +7524,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	z-index: 101 !important;
 	pointer-events: none !important;
 }
-/* ~~~~		20.		WATERMARK						~~~~ */
-//Nice one DevilBro
