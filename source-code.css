@@ -72,7 +72,7 @@
   --vbackdropblur: var(--backdropblur, var(--vbackgroundblur));
   --fontwhite1: 255,255,255;
   --fontwhite2: 255,255,255;
-  --fontwhite3: 255,255,255;
+  --fontwhite3: 200,200,200;
   --fontwhite4: 200,200,200;
   --version1_0_5: none;
 }
@@ -140,7 +140,7 @@
   --vbackdropblur: var(--backdropblur, var(--vbackgroundblur));
   --fontwhite1: 255,255,255;
   --fontwhite2: 255,255,255;
-  --fontwhite3: 255,255,255;
+  --fontwhite3: 200,200,200;
   --fontwhite4: 200,200,200;
   --version1_0_5: none;
 }
